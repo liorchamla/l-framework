@@ -1,0 +1,29 @@
+{
+  "name": "liior/framework",
+  "description": "Custom framework PHP",
+  "authors": [
+    {
+      "name": "Lior Chamla",
+      "email": "contact@web-develop.me"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "src/Framework/",
+      "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Framework\\": "tests/Framework/",
+      "Tests\\App\\": "tests/"
+    }
+  },
+  "require": {
+    "symfony/http-foundation": "^5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5",
+    "symfony/var-dumper": "^5.0"
+  }
+}

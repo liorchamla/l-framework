@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":308:{a:2:{s:7:"defects";a:1:{s:38:"Tests\Framework\AppTest::testNormalURL";i:6;}s:5:"times";a:4:{s:37:"Tests\Framework\AppTests::test404Page";d:0.009;s:36:"Tests\Framework\AppTest::test404Page";d:0.005;s:38:"Tests\Framework\AppTest::testNormalURL";d:0;s:43:"Tests\Framework\AppTest::testWithController";d:0.004;}}}
